@@ -1,0 +1,44 @@
+html{
+    scroll-behavior: smooth;
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background:gray ;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
+#title2{
+    background-color:rgb(28, 86, 150) ;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h3{
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+ 
+p{
+    margin: 25px;
+}
+#darkp{
+      color: rgb(58, 57, 57);
+}
+
+
+
+
+
+    

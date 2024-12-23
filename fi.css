@@ -1,0 +1,38 @@
+html{
+  scroll-behavior: smooth;
+}
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background:gray ;
+  bottom: 40px;
+  right: 40px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+  #title2{
+    background-color:rgb(28, 86, 150) ;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+p{
+  margin: 25px;
+  line-height: 35px;
+}
+h3:hover{
+  transform: translate(50px);
+  transition-duration: 1S;
+  text-shadow: 10px 21px rgba(0, 0,0 , 0.3);
+
+}
+
+ 

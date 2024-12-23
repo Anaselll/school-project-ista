@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth;
+  }
+  .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background:gray ;
+    bottom: 40px;
+    right: 40px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+  }
+    #title2{
+      background-color:rgb(28, 86, 150) ;
+      border-radius: 10px;
+      height: 200px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: 'Paytone One', sans-serif;
+  }
+  
+  p{
+    margin: 25px;
+    line-height: 35px;
+  }
+  h3:hover{
+    transform: translateY(10px);
+    transition-duration: 1S;
+  }
+  .img1:hover{
+    transform: translateX(6px);
+    transition-duration: 1s;
+
+  }
+  .item{
+    height:220px;
+    width:670px;
+    background-color:rgba(211, 185, 235, 0.829);
+}
+.carousel-caption{
+  position:static;
+}
+ .carousel img{
+  width: 300px;
+  height: 350px;
+
+}
+.img1{
+  margin: 10px;
+  width:40px ;
+}
+.carousel{
+  margin: 40px;
+}
