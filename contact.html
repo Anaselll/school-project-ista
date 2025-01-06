@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap-grid.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
 </head>
@@ -18,7 +18,7 @@
   <nav  class="navbar sticky-top  navbar-expand-lg navbar-light bg-light">
     <div class="container">
 
-        <img src="ofppt-modified.png" width="50px" height="50px">
+        <img src="images/ofppt-modified.png" width="50px" height="50px">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -69,11 +69,10 @@
                         Fillières
                     </a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="formationIN.html">Developemment Digital</a>
-                        <a class="dropdown-item" href="courssoir.html">Gestion des entreprises</a>
-                        <a class="dropdown-item" href="formationQUa.html">Infrastructure Digital</a>
-                        <a class="dropdown-item" href="formationQUa.html">Assisstant Administratif</a>
-                        
+                         <a class="dropdown-item" href="Developpement digital.html">Developemment Digital</a>
+                            <a class="dropdown-item" href="GESTION DES ENTREPRISES.html">Gestion des entreprises</a>
+                            <a class="dropdown-item" href="Infrastructure digital.html">Infrastructure Digital</a>
+                            <a class="dropdown-item" href="Assistant Administratif.html">Assisstant Administratif</a>
                     </div>
                 </li>
             
@@ -94,67 +93,57 @@
         <h1 id="title2">Contactez-nous </h1>
     
     <div class="container-fluid">
-        <h3 style="margin-left: 140px; " >Contacts</h3>
+        <h3 style="margin-left: 140px; " id='subtitle' >Contacts</h3>
      </div></div > 
            <div class="container" >
-            <form>
-                <div class="row">
-                <div style="margin-top: 20px;" class="mb-3 col-lg-6">
-                  <label for="nom" class="form-label">Votre nom</label>
-                  <input type="text" class="form-control" id="nom" aria-describedby="nom" >
-                  
-                </div>
-                
-              
-                <div style="margin-top: 20px;" class="mb-3 col-lg-6">
-                  <label for="prenom" class="form-label">Prenom</label>
-                  <input type="text" class="form-control" id="prenom">
-                </div>
-               
-                 </div>
+           <form class="modern-form">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="nom" class="form-label">Votre nom</label>
+            <input type="text" class="form-input" id="nom" aria-describedby="nom">
+        </div>
+        <div class="form-group">
+            <label for="prenom" class="form-label">Prenom</label>
+            <input type="text" class="form-input" id="prenom">
+        </div>
+    </div>
 
-                
+    <div class="form-row">
+        <div class="form-group">
+            <label for="Email1" class="form-label">Email (obligatoire)</label>
+            <input type="email" class="form-input" id="Email1" aria-describedby="emailHelp" required>
+            <small id="emailHelp" class="form-text">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="sujet" class="form-label">Sujet</label>
+            <input type="text" class="form-input" id="sujet">
+        </div>
+    </div>
 
-                   <div class="row">
-                    <div class="mb-3 col-lg-6">
-                      <label for="Email1" class="form-label">Email(obligatoire)</label>
-                      <input type="text" class="form-control" id="Email1" aria-describedby="emailHelp" required>
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    
-                        
-                    
-                        
-              
-                    <div class="mb-3 col-lg-6">
-                        <label for="sujet" class="form-label">Sujet</label>
-                        <input type="text" class="form-control" id="sujet">
-                      </div>
-                    </div>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="Textarea1" class="form-label">Votre message</label>
+            <textarea class="form-input" id="Textarea1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="check" class="form-label">Veuillez saisir les chiffres</label>
+            <div class="captcha-image">
+                <img src="images/checking.png" alt="CAPTCHA">
+            </div>
+            <input type="text" class="form-input" id="check">
+        </div>
+    </div>
 
+    <div class="form-check">
+        <input type="checkbox" class="form-checkbox" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">
+            Je ne suis pas un robot
+            <img src="images/RecaptchaLogo.svg.png" alt="Recaptcha Logo" class="recaptcha-logo">
+        </label>
+    </div>
 
-
-
-                    <div class="row">
-                      <div class="mb-3 col-lg-6">
-                        <label for="Textarea1" class="form-label">Votre message</label>
-                        <textarea class="form-control" id="Textarea1" rows="3"></textarea>
-                      </div>
-                   
-                      <div class="mb-3 col-lg-6">
-                        <label for="check" class="form-label">Veuillez saisir les chiffres</label>
-                        <div><img src="checking.png"></div>
-                        <input type="text" class="form-control" id="check">
-                      </div>
-
-                   </div>
-
-
-     <div style="border: solid rgb(204, 201, 201) 1px;width: 300px;" class="mb-3 col-lg-4 form-check">
-                  <input style="margin-top: 16px; margin-left: 7px;" type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label style="margin-left: 10px;" class="form-check-label" for="exampleCheck1">Je ne suis pas un robot <img src="RecaptchaLogo.svg.png " style="width: 50px; height: 50px;"></label>
-                </div>
-            </form></div>
+    <button type="submit" class="submit-button">Envoyer</button>
+</form></div>
 
 
   
